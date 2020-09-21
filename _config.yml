@@ -29,8 +29,9 @@ logo:             '/assets/logo.png'
 # BUILD SETTINGS
 # ---------------------------------------------------------------
 # Best not to mess with these unless you know what you're doing!
-
-theme: 'wax_theme'
+plugins:
+  - jekyll-remote-theme
+remote_theme: 'mnyrop/wax_theme_submodule@main'
 permalink: 'pretty'
 sass:
   style: compressed
