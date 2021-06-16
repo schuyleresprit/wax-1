@@ -7,7 +7,7 @@ gemspec
 gem 'jekyll', '4.1'
 
 # Windows patches
-platforms :mswin, :mingw, :x64_mingw do
+platforms :mswin, :mingw, :x64_mingw, :jruby do
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-  gem 'kramdown-parser-gfm'
+  gem 'tzinfo-data'
 end
